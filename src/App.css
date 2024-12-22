@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: rgb(8, 7, 7);
+    height: 100vh;
+}
+.App{
+  
+}
+.form-parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input{width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: transparent;
+    border-bottom: 1px solid lightgray;
+}
+
+.input-child{
+    padding: 4px;
+    margin: 8px 0px;
+}
+.input-last-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.input-last-child input{
+    width: 15px;
+}
+
+.input-save{
+    width: 100%;
+    padding: 3px;
+    margin-top: 15px;
+    background-color: gold;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+
+}
+
+.input-errors{
+    color: rgb(185, 72, 72);
+    font-size: 15px;
+}
